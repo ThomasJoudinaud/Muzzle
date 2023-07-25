@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+header {
+  padding: 30px;
+}
+header img {
+  width: 65px;
+  margin: 20px;
+}
+header h1 {
+  font-size: 60px;
+  font-weight: lighter;
+  color: #676767;
+  padding: 30px;
+}
+header p {
+  margin: auto;
+  color: #a9a9a9;
+  font-weight: light;
+  font-size: 25px;
+  width: 70%;
+}
+main button {
+  display: flex;
+  margin: 40px auto;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdf0ce;
+  padding: 2px 40px;
+  border-radius: 3px;
+  cursor: pointer;
+  border: solid #eccf92;
+  border-width: 1px;
+  text-shadow: 0 1px 0 rgb(255 255 255 / 50%);
+  box-shadow: 0 2px 0 0 #cbb384, 0 4px 10px 0 rgb(0 0 0 / 10%),
+    inset 0 1px 0 1px #fffaea;
+}
+main button p {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 800px;
+  color: #676767;
+}
+#link {
+  padding: 60px 0px 0px 0px;
+}
+#link p {
+  margin: auto;
+  font-size: 14px;
+  color: #a9a9a9;
+  width: 60%;
+  text-align: center;
+}
+.link2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  margin: auto;
+}
+.link2 img {
+  width: 26px;
+  filter: grayscale();
+  margin: 10px;
+}
+#help {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+#help a {
+  font-weight: 500px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #dac297;
+}
+#Codekit {
+  display: block;
+}
+#Codekit div {
+  display: inline-block;
+  padding: 10px;
+  width: 27%;
+  margin: auto;
+}
+#Codekit h3 {
+  font-weight: 600;
+  font-size: 12px;
+  color: #9a9a9a;
+  margin: 5px;
+}
+#Codekit p {
+  font-size: 12px;
+  color: #9a9a9a;
+  margin: 5px;
+}
+.Codekit1 {
+  text-align: top right;
+}
+.Codekit2 {
+  text-align: top left;
+}
+#Codekit a {
+  padding: 10px;
+  text-decoration: none;
+  color: #676767;
+  font-weight: 600;
+  text-align: center;
+}
+.twitter {
+  text-align: center;
+  font-size: 12px;
+  color: #9a9a9a;
+  margin: 10px;
+}
+.twitter a {
+  color: #cdac71;
+}
+.twitter img {
+  width: 10px;
+}
+main button:hover {
+  background-color: #c2fed6;
+  text-shadow: 0 1px 0 rgb(255 255 255 / 50%);
+  box-shadow: 0 2px 0 0 #cbb384, 0 14px 10px 0 rgb(0 0 0 / 10%),
+    inset 0 1px 0 1px #fffaea;
+  width: 41%;
+  transition: 0.5s ease;
+}
+.link2 :hover {
+  filter: none;
+  transition: 250ms;
+}
+#help a:hover {
+  color: orange;
+  transition: 250ms;
+}
+#Codekit a:hover {
+  color: #000;
+  transition: 250ms;
+}
